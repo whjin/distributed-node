@@ -1,20 +1,23 @@
 {
-  "producer_pid": 14508,
-  "recipe": {
-    "id": 42,
-    "name": "Chicken Tikka Masala",
-    "steps": "Throw it in a pot...",
-    "ingredients": [
-      {
-        "id": 1,
-        "name": "Chicken",
-        "quantity": "1 lb"
-      },
-      {
-        "id": 2,
-        "name": "Sauce",
-        "quantity": "2 cups"
-      }
-    ]
+  "consumer_pid": 3716,
+  "producer_data": {
+    "producer_pid": 13908,
+    "recipe": {
+      "id": 42,
+      "name": "Chicken Tikka Masala",
+      "steps": "Throw it in a pot...",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Chicken",
+          "quantity": "1 lb"
+        },
+        {
+          "id": 2,
+          "name": "Sauce",
+          "quantity": "2 cups"
+        }
+      ]
+    }
   }
 }
