@@ -19,6 +19,10 @@
   "homepage": "https://github.com/whjin/distributed-node#readme",
   "dependencies": {
     "fastify": "^3.2.1",
-    "node-fetch": "2.6"
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-fetch": "2.6",
+    "zlib": "^1.0.5"
   }
 }
