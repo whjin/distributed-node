@@ -15,7 +15,7 @@ const options = {
   })
 };
 
-server.get("/", async () => {
+server.get("/", async () =>{
   const req = await fetch(`https://${TARGET}/recipes/42`, options);
   console.log(req);
   const producer_data = await req.json();

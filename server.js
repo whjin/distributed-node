@@ -11,7 +11,7 @@ fs.readFile("./public/index.html", (err, html) => {
     throw err;
   }
   https
-    .createServer(options, (req, res) => {
+    .createServer(options, (req, res) =>{
       res.writeHead(200, { "Content-Type": "text/html" });
       res.write(html);
       res.end();

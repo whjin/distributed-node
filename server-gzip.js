@@ -6,9 +6,9 @@ const fs = require("fs");
 
 http
   .createServer((req, res) => {
-    const raw = fs.createReadStream(__dirname + "/index.html");
+    const raw = fs.createReadStream(__dirname + "/public/index.html");
     const acceptEncoding = req.headers["accept-endcoding"] || "";
-    res.setHeader("Content-Type", "text/plain");
+    res.setHeader("Content-Type", "text/html");
     console.log(acceptEncoding);
 
     if (acceptEncoding.includes("gzip")) {
