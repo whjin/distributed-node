@@ -19,6 +19,7 @@
   "homepage": "https://github.com/whjin/distributed-node#readme",
   "dependencies": {
     "dgram": "^1.0.1",
+    "express": "^4.18.2",
     "fastify": "^3.2.1",
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
