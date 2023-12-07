@@ -18,15 +18,7 @@
   },
   "homepage": "https://github.com/whjin/distributed-node#readme",
   "dependencies": {
-    "dgram": "^1.0.1",
     "express": "^4.18.2",
-    "fastify": "^3.2.1",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security",
-    "https": "^1.0.0",
-    "middle": "^0.0.2",
-    "node-fetch": "2.6",
-    "os": "^0.1.2",
-    "zlib": "^1.0.5"
+    "https": "^1.0.0"
   }
 }
