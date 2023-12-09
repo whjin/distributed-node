@@ -1,20 +1,8 @@
-{
-  "producer_pid": 12560,
-  "recipe": {
-    "id": 42,
-    "name": "滕王阁饯别序",
-    "steps": "豫章故郡，洪都新府",
-    "ingredients": [
-      {
-        "id": 1,
-        "name": "王勃",
-        "quantity": "李贺"
-      },
-      {
-        "id": 2,
-        "name": "王维",
-        "quantity": "李煜"
-      }
-    ]
+[
+  {
+    "id": 0,
+    "value": "React",
+    "done": false,
+    "delete": false
   }
-}
+]
